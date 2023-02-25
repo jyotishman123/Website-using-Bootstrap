@@ -1,0 +1,66 @@
+
+.container-md{
+     /* border: 1px solid red; */
+    margin-top: 40px;
+}
+ 
+ 
+ .card{
+    margin: auto;
+    padding: 15px 20px;
+ }
+  .img-thumbnail{
+    border: 0;
+    width: 98px;
+    height: 86px;
+    border-radius: 50%;
+  }
+ 
+  .features{
+    margin-top: 70px;
+    padding: 40px;
+    /* border: 1px solid red; */
+
+  }
+  .features-card{
+    padding: 30px;
+    line-height: 60px;
+    
+  }
+  .contact{
+    margin-top: 70px;
+    padding: 40px;
+    /* border: 1px solid red; */
+  }
+  .form-custom{
+    /* border: 1px solid red; */
+    margin: 25px auto;
+    padding: 30px;
+  }
+  .form-label{
+    text-align: left;
+  }
+   #footer{
+    /* border: 1px solid red; */
+    background-color: black;
+  }
+  
+  .copyright-text{
+    color: #fff;
+  }
+  .col-md{
+    margin: 35px auto;
+
+  }
+  @media only screen and (min-width:992px) {
+    .nav-item a{
+      margin: 0 15px;
+  }
+  .navbar-brand{
+      flex: 2;
+      margin-left: 27px;
+  }
+  .navbar-expand-lg .navbar-collapse{
+      flex: 1;
+  }
+  }
